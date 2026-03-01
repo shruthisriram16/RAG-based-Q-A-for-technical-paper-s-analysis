@@ -109,7 +109,7 @@ streamlit run streamlit_rag.py
 
 The following screenshot shows sample document chunks generated after hybrid chunking:
 
-![Chunking Output](outputs/chunk_output.png)
+![Chunking Output](outputs/chunking_output.png)
 
 ---
 
