@@ -117,7 +117,7 @@ The following screenshot shows sample document chunks generated after hybrid chu
 
 The following screenshot demonstrates the retrieval-augmented answer generation:
 
-![RAG Output](outputs/rag_output.png)
+![RAG Output](outputs/Rag_output.png)
 
 ------------------------------------------------------------------------
 ## Use Cases
