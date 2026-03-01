@@ -32,12 +32,12 @@ def run_rag(query:str):
         Question:
         {question}
         """)
-    
+#create a RAG pipeline
     rag_chain = (
     {"context": retriever, "question": RunnablePassthrough()}
     | prompt
     | llm)
-    
+#choose the top k relevant chunks
     docs = retriever.invoke(query)
     if not docs:
         answer = "I don't know"
@@ -48,4 +48,5 @@ def run_rag(query:str):
     return{
     "question": query,
     "answer": answer}
+
 
