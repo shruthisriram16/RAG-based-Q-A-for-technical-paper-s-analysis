@@ -101,6 +101,25 @@ streamlit run streamlit_rag.py
 
 ------------------------------------------------------------------------
 
+
+
+## Sample Outputs
+
+### Chunking Output
+
+The following screenshot shows sample document chunks generated after hybrid chunking:
+
+![Chunking Output](outputs/chunking_output.png)
+
+---
+
+### RAG Query Output
+
+The following screenshot demonstrates the retrieval-augmented answer generation:
+
+![RAG Output](outputs/Rag_output.png)
+
+------------------------------------------------------------------------
 ## Use Cases
 
 -   Research paper analysis\
